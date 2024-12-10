@@ -1,0 +1,21 @@
+{
+  "name": "home_services",
+  "version": "1.0.0",
+  "description": "tubes mbd",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amrina",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.1",
+    "home_services": "file:",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.7"
+  },
+  "type": "module"
+}
